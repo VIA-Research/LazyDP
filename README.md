@@ -19,7 +19,7 @@ docker run -ti --gpus all --shm-size 5g --name lazydp -v $PATH_MODEL_WEIGHT:/mod
 In the docker container, clone this repository.
 ```bash
 cd /workspace
-git clone https://gitlab.com/via-research/LazyDP.git
+git clone https://github.com/VIA-Research/LazyDP.git
 ```
 
 Run `setup.sh` in cloned directory to extend PyTorch and install required packages.
