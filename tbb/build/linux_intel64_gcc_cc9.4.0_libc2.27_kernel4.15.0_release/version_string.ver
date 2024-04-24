@@ -1,0 +1,11 @@
+#define __TBB_VERSION_STRINGS(N) \
+#N": BUILD_HOST		dgx-v100 (x86_64)" ENDL \
+#N": BUILD_OS		Ubuntu 18.04.3 LTS" ENDL \
+#N": BUILD_KERNEL	Linux 4.15.0-55-generic #60-Ubuntu SMP Tue Jul 2 18:22:20 UTC 2019" ENDL \
+#N": BUILD_GCC		g++ (Ubuntu 9.4.0-1ubuntu1~18.04) 9.4.0" ENDL \
+#N": BUILD_LIBC	2.27" ENDL \
+#N": BUILD_LD		" ENDL \
+#N": BUILD_TARGET	intel64 on cc9.4.0_libc2.27_kernel4.15.0" ENDL \
+#N": BUILD_COMMAND	g++ -O2 -g -DDO_ITT_NOTIFY -DUSE_PTHREAD -pthread -m64 -mrtm -fPIC -flifetime-dse=1 -D__TBB_BUILD=1 -Wall -Wextra -Wno-parentheses -Wno-sized-deallocation -DTBB_SUPPRESS_DEPRECATED_MESSAGES=1 -I../../src -I../../src/rml/include -I../../include -I." ENDL \
+
+#define __TBB_DATETIME "Mon Mar 20 13:25:32 UTC 2023"
